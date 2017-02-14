@@ -25,7 +25,7 @@ function CompteurJetons() {
   this.compterJetons = function * (str) {
     totalWords = str.split(' ').length;
     while(compte < totalWords) {
-      for(i=0;i<100000;i++){}
+      for(i=0;i<10000000;i++){}
         ++compte;
       pourcent = Math.round(compte*100/totalWords);
       yield this.getProgress();

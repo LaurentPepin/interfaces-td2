@@ -11,6 +11,7 @@ $(function() {
 	
 	
 	w.onmessage = function (e) {
+			$(".progress-bar").css("width",e.data+"%");
 			$("#result").text(e.data);
 			if(e.data < 100){
 				w.postMessage($("#text").val());
