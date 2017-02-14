@@ -1,12 +1,13 @@
 $(function() {
-	console.log("main");
 	
 	var w = new Worker('worker.js');
 	
 	$("#submit-button").click(function () {
 		w.postMessage($("#text").val());
-		
-		
+		$(this).text("Annuler");
+		$(this).click(function(){
+			w.terminate();
+		});
 	});
 	
 	
@@ -16,13 +17,6 @@ $(function() {
 				w.postMessage($("#text").val());
 			}
 	}
-
-	
-		
-			
-		
-	
-
 
 });
 
