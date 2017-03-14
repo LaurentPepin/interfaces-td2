@@ -3,5 +3,68 @@ body {
     padding-top:50px;
 }
 
+.frame {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
 
+.secondRow {
+    margin-top: 10px;
+}
 
+.number {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.col-md-12 {
+    text-align: center;
+}
+
+.count {
+    background-color: #286dc1;
+    color: white;
+    font-weight: bold;
+}
+
+.cancel {
+    background-color: #d10c2a;
+    color: white;
+    font-weight: bold;
+}
+
+.cancelNotAllowed {
+    background-color: #f27d8f;
+}
+
+.countNotAllowed {
+    background-color: #89afed;
+}
+
+.progress-bar {
+    width: 0%;
+}
+
+#title {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.eraseText {
+    background-color:  #666666;
+    color: white;
+    font-weight: bold;
+}
+
+.smallFrame {
+    border: 1px solid   #8c8c8c;
+    color:  #8c8c8c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
